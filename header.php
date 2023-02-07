@@ -16,6 +16,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+form{
+  text
+}
 
 .navbar {
 background-color: #5C2018; /* navbar background color */
@@ -95,10 +98,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
               <a class="nav-link active" href="index.php">Index</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="layout/ex1.php">Exercise1</a>
+              <a class="nav-link" href="ex1.php">Exercise1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reservation.html">Exercise2</a>
+              <a class="nav-link" href="variable.php">Variable</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="reservation.html">Exercise3</a>
