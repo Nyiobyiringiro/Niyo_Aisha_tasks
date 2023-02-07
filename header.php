@@ -95,7 +95,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
         <ul class="navbar-nav">
   
           <li class="nav-item">
-              <a class="nav-link active" href="index.php">Index</a>
+              <a  class="nav-link" href="index.php">Index</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="ex1.php">Exercise1</a>

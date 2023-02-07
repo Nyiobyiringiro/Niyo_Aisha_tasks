@@ -77,7 +77,7 @@ Select fav color: <input type="color" name="color" class="form-control" ><br><br
     <h2>Write a PHP script in the footer section of your universal footer just below the 
         Copyright information to display the last modification time of a file</h2>
 
-     
+    
 </div>
 <?php include "footer.php" ?>
 

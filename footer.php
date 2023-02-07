@@ -159,6 +159,9 @@ img {
           </div>
         </div>
       </div>
+      <?php 
+      echo "Last modified on " .date ("F d Y H:i:s.",filemtime(basename($_SERVER['PHP_SELF'])));
+       ?>
     </footer>
         
 </body>
