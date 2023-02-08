@@ -104,7 +104,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
               <a class="nav-link" href="variable.php">Variable</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reservation.html">Exercise3</a>
+              <a class="nav-link" href="controlflow.php">Control flow</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">Exercise4</a>
