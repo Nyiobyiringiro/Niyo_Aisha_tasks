@@ -110,7 +110,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
               <a class="nav-link" href="array.php">Arrays</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="fi.html">Exercise5</a>
+              <a class="nav-link" href="crudapp/create.php">Create</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="read.php">Read</a>
             </li>
         </ul>
       </div>
