@@ -2,17 +2,18 @@
 $title="A cimple CRUD app";
 include"../header.php";
 ?>
- <form method="POST" action="">
+
+ <form method="POST" action="" onsubmit="return crud()" name="form1">
 <div class="row">
     <div class="col-md-6">
- <input type="text" name="fname" placeholder="First name" class="form-control" required>
- <input type="text" name="lname" placeholder="last name" class="form-control" required>
- <input type="text" name="city" placeholder="city " class="form-control" required>
+ <input type="text" name="fname" placeholder="First name" class="form-control" required onblur="fname()"><br>
+ <input type="text" name="lname" placeholder="last name" class="form-control" required><br>
+ <input type="text" name="city" placeholder="city " class="form-control" required><br>
  <select name="groupid">
     <option value="BBCAP22">BBCAP22</option>
     <option value="BBCAP21">BBCAP21</option>
     <option value="others">others</option>
-</select><br>
+</select><br><br>
 
  <input type="submit" value="submit" name="submit">
  </div>
@@ -31,9 +32,10 @@ include"../header.php";
         echo"information is added successfully!";
     }
     else{
-        echo "Error".$conn->error;
+        echo "Error".$conn->connect_error;
     }
  }
+ 
 ?>
 <?php
 include"../footer.php";

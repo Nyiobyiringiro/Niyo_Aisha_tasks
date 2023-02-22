@@ -77,10 +77,11 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
       padding: 15px; /* Some padding */
       border-radius: 10px; /* Rounded corners */
 }
+/*javasript link*/
  </style>
-</head>
-<script src="/Niyo_Aisha_tasks/javascript/site.js">
+ <script src="/Niyo_Aisha_tasks/javascript/site.js">
   </script>
+</head>
 <body>
   <div>
 
