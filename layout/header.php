@@ -116,6 +116,9 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
             <li class="nav-item">
               <a class="nav-link" href="../crudapp/read.php">Read</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../layout/js2inclass.php">Color change</a>
+            </li>
         </ul>
       </div>
     </div>

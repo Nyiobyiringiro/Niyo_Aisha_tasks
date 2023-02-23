@@ -1,6 +1,6 @@
 <?php
 $title="update data from the database";
-include "../header.php";
+include "../layout/header.php";
 include "db.php";
 $a=$_GET['id'];
 $result=mysqli_query($conn,"select * from studentinfo where id='$a'");
@@ -64,5 +64,5 @@ else{
 ?>
 <?php
 $conn->close();
-include "../footer.php"
+include "../layout/footer.php"
 ?>

@@ -33,8 +33,8 @@ function crud(){
 }
 function fname(){
     let fname=(document.form1.fname.value).trim();
-     if(fname.length<5){
-       alert("Name is too small");
+     if(fname==null){
+       alert("This field can not be empty");
        return false;
     }
     
