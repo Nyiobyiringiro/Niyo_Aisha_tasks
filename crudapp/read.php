@@ -1,6 +1,6 @@
 <?php
 $title="Reading data from the database";
-include "../header.php";
+include "../layout/header.php";
 include "db.php";
 $sql="select * from studentinfo";
 $results=$conn->query($sql);
@@ -29,5 +29,5 @@ else{
     echo"no data found";
 }
 $conn->close();
-include "../footer.php"
+include "../layout/footer.php"
 ?>

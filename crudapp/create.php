@@ -1,6 +1,6 @@
 <?php
 $title="A cimple CRUD app";
-include"../header.php";
+include"../layout/header.php";
 ?>
 
  <form method="POST" action="" onsubmit="return crud()" name="form1">
@@ -38,5 +38,5 @@ include"../header.php";
  
 ?>
 <?php
-include"../footer.php";
+include"../layout/footer.php";
 ?>

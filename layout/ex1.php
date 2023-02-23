@@ -1,3 +1,9 @@
+<?php
+$title="Index page";
+include "header.php"?>
+<div class="Wrapper" style=" max-width:90%; margin:auto; padding:20px;">
+ <h3>Write a simple PHP script to print your information</h3>
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,12 @@
       
 </head>
 <body>
+   <script>
+    document.write("This is JavaScript");
+    window.alert("This will trigger an alert box");
+    window.alert(5+10);
+   </script>
+   <input type="button" onclick=" hello()" value="Click me";>
     <h3>Write a simple PHP script to print your information</h3>
   <?php 
    echo" Niyobyiringiro Aisha<br>";
@@ -27,6 +39,11 @@
    $title="PHP is interesting"
    ?>
    <h1><?php echo $title?></h1>
+   <span id="place1"></span>
+   <script>
+  document.getElementById('place1').innerhtml="This is will work";
+  document.getElementById('place2').innerhtml="This is will work";
+   </script>
    <?php
    $g1=5; 
    $g2=4; 
@@ -51,6 +68,13 @@
    </table>
    ";
    ?>
+   
  <img  src="docker.png" alt="image of docker" class="img-fluid">
+ <h2>changing the background color<h2>
+    <form action="">
+      <input type="color" name="background" onchange="changecolor('background',this.value)>
+    </form>
 </body>
 </html>
+ 
+<?php include "footer.php" ?>
